@@ -45,17 +45,28 @@ typings/
 # Optional eslint cache
 .eslintcache
 
+# dependencies
+/node_modules
 # Optional REPL history
 .node_repl_history
 
+# testing
+/coverage
 # Output of 'npm pack'
 *.tgz
 
+# production
+/build
 # Yarn Integrity file
 .yarn-integrity
 
+# misc
+.DS_Store
 # dotenv environment variables file
 .env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # next.js build output
 .next
